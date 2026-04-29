@@ -17,9 +17,10 @@ namespace BLL
             int i = 0;
             DALCLASS objd = new DALCLASS();
             objd.InsertData(username, password);
-        
-     
-          
+            return objd.ToString();
+
+
+
         }
     }
 }
